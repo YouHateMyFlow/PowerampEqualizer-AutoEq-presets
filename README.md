@@ -1,4 +1,4 @@
-Poweramp Equalizer — AutoEq Presets Collection
+Poweramp Equalizer AutoEq Presets
 ===============================================
 Extracted from: Poweramp Equalizer build-1021-bundle-play
                 (com.maxmpz.equalizer, versionCode 1021004, Android 9.0+)
@@ -21,7 +21,7 @@ PREAMP NOTE
 The Poweramp database stores preamp = 0 for every AutoEq preset (the app
 relies on its own DSP headroom). For safe use in other software:
 
-  - parametric_eq/*.txt files include a "Preamp" line computed the
+  - Parametric EQ files include a "Preamp" line computed the
     standard AutoEq way (negative of the preset's maximum boost, from
     the actual combined filter-bank response).
   - GraphicEQ files cannot carry preamp; column
