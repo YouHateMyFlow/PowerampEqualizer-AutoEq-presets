@@ -27,3 +27,10 @@ relies on its own DSP headroom). For safe use in other software:
   - GraphicEQ files cannot carry preamp; column
     "graphic_suggested_preamp_db" in index.csv holds the equivalent
     value (negative of the loudest band) if your app supports preamp.
+
+10-BAND GRAPHIC EQ PRESETS (graphic_eq_10/)
+--------------------------------------------
+Reverse engineered from Poweramp build-1031-uni
+(com.maxmpz.audioplayer, versionCode 1031009). These files reproduce
+exactly what Poweramp generates and displays when it converts the stored
+32-band AutoEq curve into its stock 10-band graphic EQ.
